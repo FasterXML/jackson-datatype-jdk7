@@ -1,0 +1,6 @@
+Project: jackson-datatype-jdk7
+Version: 2.4.0
+
+First official version
+
+#1: Add support for `java.nio.file.Path`

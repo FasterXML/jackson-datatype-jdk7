@@ -1,6 +1,6 @@
 package com.fasterxml.jackson.datatype.jdk7;
 
-import java.nio.file.Paths;
+import java.nio.file.Path;
 
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.module.SimpleModule;
@@ -19,7 +19,8 @@ public class Jdk7Module extends SimpleModule
 
         // then serializers:
         final JsonSerializer<Object> stringSer = ToStringSerializer.instance;
-        addSerializer(Paths.class, stringSer);
+        addSerializer(Path.class, stringSer);
+        addDeserializer(Path.class, new PathDeserializer());
 
         // then key deserializers?
 //       addKeyDeserializer(Paths.class, new PathsKeyDeserializer());
