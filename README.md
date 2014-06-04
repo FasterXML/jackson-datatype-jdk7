@@ -6,7 +6,7 @@ supported by core databind due to baseline being JDK 6.
 
 [![Build Status](https://fasterxml.ci.cloudbees.com/job/jackson-datatype-jdk7-master/badge/icon)](https://fasterxml.ci.cloudbees.com/job/jackson-datatype-jdk7-master/)
 
-This is a very now module (experimental with 2.3). Stay tuned!
+This is a new module; first official version is 2.4.0.
 
 ## Usage
 
@@ -18,14 +18,13 @@ To use module on Maven-based projects, use following dependency:
 <dependency>
   <groupId>com.fasterxml.jackson.datatype</groupId>
   <artifactId>jackson-datatype-jdk7</artifactId>
-  <version>2.3.0</version>
+  <version>2.4.0</version>
 </dependency>    
 ```
 
 (or whatever version is most up-to-date at the moment)
 
 ### Registering module
-
 
 Like all standard Jackson modules (libraries that implement Module interface), registration is done as follows:
 
