@@ -31,7 +31,6 @@ JDK 7 data types.
 
     <!-- Configuration properties for the OSGi maven-bundle-plugin -->
     <osgi.import>com.fasterxml.jackson.core
-,com.fasterxml.jackson.core
 ,com.fasterxml.jackson.core.util
 ,com.fasterxml.jackson.databind
 ,com.fasterxml.jackson.databind.deser.std
