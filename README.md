@@ -4,7 +4,7 @@ supported by core databind due to baseline being JDK 6.
 
 ## Status
 
-[![Build Status](https://fasterxml.ci.cloudbees.com/job/jackson-datatype-jdk7-master/badge/icon)](https://fasterxml.ci.cloudbees.com/job/jackson-datatype-jdk7-master/)
+[![Build Status](https://travis-ci.org/FasterXML/jackson-datatype-jdk7.svg)](https://travis-ci.org/FasterXML/jackson-datatype-jdk7)
 
 This is a new module; first official version is 2.4.0.
 
