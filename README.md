@@ -2,11 +2,13 @@ Project for [Jackson](https://github.com/FasterXML/jackson) module (jar)
 that adds supports for JDK datatypes included in version 7 which can not be directly
 supported by core databind due to baseline being JDK 6.
 
+
 ## Status
 
-[![Build Status](https://travis-ci.org/FasterXML/jackson-datatype-jdk7.svg)](https://travis-ci.org/FasterXML/jackson-datatype-jdk7)
+Starting with Jackson 2.7, this module will be **DEPRECATED**, as its handlers will be
+incorporated directly in [core Databind](../../jackson-databind).
 
-This is a new module; first official version is 2.4.0.
+Module is supported up until Jackson 2.6.
 
 ## Usage
 
@@ -18,11 +20,9 @@ To use module on Maven-based projects, use following dependency:
 <dependency>
   <groupId>com.fasterxml.jackson.datatype</groupId>
   <artifactId>jackson-datatype-jdk7</artifactId>
-  <version>2.4.0</version>
+  <version>2.6.2</version>
 </dependency>    
 ```
-
-(or whatever version is most up-to-date at the moment)
 
 ### Registering module
 
@@ -38,10 +38,6 @@ you can read JSON into supported JDK7 types, as well as write values of such typ
 
 ```java
 // TODO: real example
-Paths p = ...;
+Path p = ...;
 String json = mapper.writeValueAsString(p);
 ```
-
-## More
-
-See [Wiki](../../wiki) for more information (javadocs, downloads).
