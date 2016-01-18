@@ -5,6 +5,7 @@ supported by core databind due to baseline being JDK 6.
 
 ## Status
 
+[![Build Status](https://travis-ci.org/FasterXML/jackson-datatype-jdk7.svg?branch=master)](https://travis-ci.org/FasterXML/jackson-datatype-jdk7)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.fasterxml.jackson.datatype/jackson-datatype-jdk7/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.fasterxml.jackson.datatype/jackson-datatype-jdk7/)
 [![Javadoc](https://javadoc-emblem.rhcloud.com/doc/com.fasterxml.jackson.datatype/jackson-datatype-jdk7/badge.svg)](http://www.javadoc.io/doc/com.fasterxml.jackson.datatype/jackson-datatype-jdk7)
 
